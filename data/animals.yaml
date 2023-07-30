@@ -1,0 +1,8 @@
+train: ../animals/images/train/
+val: ../animals/images/val/
+
+nc: 2
+
+names:
+  0: penguin
+  1: turtle
