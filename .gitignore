@@ -1,5 +1,4 @@
 # Repo-specific GitIgnore ----------------------------------------------------------------------------------------------
-*.jpg
 *.jpeg
 *.png
 *.bmp
@@ -24,7 +23,9 @@
 !cfg/yolov3*.cfg
 
 storage.googleapis.com
-runs/*
+!runs/*
+!runs/train/yolov5s_animals4/weights/*
+!runs/train/yolov5s_animals4/*
 data/*
 data/images/*
 !data/*.yaml
